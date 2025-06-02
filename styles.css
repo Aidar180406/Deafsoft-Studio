@@ -1,0 +1,223 @@
+.title {
+    color: white;
+    font-family: sans-serif;
+    width: 76%;
+    margin-right: 50px;
+}
+header{
+    display: flex;
+    gap: 1px;
+    
+}
+.header-buttons {
+    display: flex;
+    gap: 1rem; /* Отступ между кнопками */
+}
+
+.header-btn {
+    padding: 0.6rem 2rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.header-btn:hover {
+    background-color: #2980b9;
+}
+.background_header {
+    background-color: steelblue;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 10px; 
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 30px;
+    border-bottom-left-radius: 20px;  
+    border-bottom-right-radius: 20px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 5900px;
+    margin: 0 auto;
+}
+.background_bottom {
+    background-color: steelblue;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 30px; 
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.background_bottom h3{
+    font-family: sans-serif;
+    text-align: left;
+    color: white;
+}
+.background_bottom h4{
+    font-family: sans-serif;
+    text-align: left;
+    color: white;
+}
+.background_bottom p{
+    font-family: sans-serif;
+    text-align: left;
+    color: white;
+}
+body {
+    margin: 0;
+    
+    padding: 0;
+}
+.achievements li
+{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 25px;
+}
+.achievements h1
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 35px;
+    
+}
+.achievements a
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.achievements
+{
+    margin: 30px;
+    margin-top: 120px;
+    margin-bottom: 350px;
+}
+.doc
+{
+    font-family: sans-serif;
+    text-align: left;
+}
+.welcome_back {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    background-image: url('2025-05-31_13-14-52.png');
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    padding: 67px 41px;         
+    color: white;               
+    text-align: center;         
+}
+
+.welcome_content {
+    max-width: 800px;          
+    margin: 0 auto;            
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 26px;
+    border-radius: 10px;       
+}
+.welcome{
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 180px; 
+}
+.welcome_p{
+    font-family: sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.projects {
+    background-color: steelblue;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 60px 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.projects_title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.project_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project_card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.project_card:hover {
+    transform: scale(1.02);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.project_image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.project_info {
+    flex: 1;
+}
+
+.project_name {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project_description {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.project_link {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project_link:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .project_card {
+        flex-direction: column;
+    }
+    
+    .project_image {
+        width: 100%;
+        height: auto;
+    }
+}
