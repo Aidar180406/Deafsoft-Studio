@@ -142,7 +142,7 @@ body {
 .projects {
     background-color: steelblue;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 40px;
     margin: 60px 0;
     color: white;
     font-family: sans-serif;
@@ -155,8 +155,46 @@ body {
 }
 
 .project_container {
-    max-width: 1200px;
+    max-width: auto;
     margin: 0 auto;
+}
+
+.download-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 950px;
+    margin: 0 auto;
+}
+.download-container h1
+{
+    color: black;
+    font-family: sans-serif;
+}
+.download-container h4
+{
+    color: black;
+    font-family: sans-serif;
+}
+.download-container a
+{
+    color: white;
+    font-family: sans-serif;
+}
+.download-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: steelblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background 0.3s;
+}
+.download-btn:hover {
+    background: #4682b4;
 }
 
 .project_card {
@@ -168,6 +206,37 @@ body {
     border-radius: 20px;
     transition: transform 0.3s ease;
     margin-bottom: 20px;
+}
+
+.project_card_info {
+    
+    margin: 0 auto;  
+    
+    display: column;
+    align-self: center;
+    max-width: 950px;
+    gap: 30px;
+    background-color: steelblue;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.project_card_info h3 {
+    color: white;
+    font-family: sans-serif;
+}
+.project_card_info p {
+    color: white;
+    font-family: sans-serif;
+}
+.project_image_info {
+    max-width: 950px;
+    margin: 0 auto;  
+    display: flex;
+    max-height: 500px;
+    border-radius: 10px;
 }
 
 .project_card:hover {
